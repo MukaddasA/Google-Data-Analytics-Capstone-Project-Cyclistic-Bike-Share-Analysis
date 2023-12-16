@@ -24,9 +24,9 @@ The process involved the use of SQL Server Management Studio 19, accessible at [
 
 The "usertype" column presented two data types: "Customer" and "Subscriber," where "Customer" signifies casual users and "Subscriber" refers to members. For this analysis, the column has been retained as is, with "Customer" denoting casual users and "Subscriber" representing members.
 
-To gain additional insights, new columns were calculated. The "start_time" and "end_time" columns, initially in date and time data types (DATETIME), were split into separate date and time columns. Two new columns, "day_of_week" and "ride_length_minutes" were introduced. Four columns, namely "from_station_name," "to_station_name," "start_time," and "end_time," were removed for streamlining the analysis. The final schema comprises 14 columns.
+To gain additional insights, new columns were calculated. The "start_time" and "end_time" columns, initially in date and time data types (DATETIME), were split into separate date and time columns. Two new columns, "day_of_week" and "ride_length_minutes" were introduced. Four columns, namely "from_station_name," "to_station_name," "start_time," and "end_time," were removed for streamlining the analysis. The final schema comprises 14 columns: "trip_id", "bikeid", "tripduration", "from_station_id", "to_station_id", "usertype", "gender", "birthyear", "start_date_new", "start_time_new", "end_date_new", "end_time_new", "day_of_week" and "ride_length_minutes".
 
-For a detailed account of the entire manipulation and processing procedure, refer to the [Divvy_Trips_2019_Cleaning.sql](C:\Users\mukad\OneDrive\Desktop\Divvy_Trips_2019\Divvy_Trips_2019_Cleaning.sql) file.
+For a detailed account of the entire manipulation and processing procedure, refer to the [Divvy_Trips_2019_Cleaning.sql](Divvy_Trips_2019_Cleaning.sql) file.
 
 # Analysis and Visualization
 
