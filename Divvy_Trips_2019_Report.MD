@@ -5,6 +5,7 @@ Cyclistic, a bike-share program with a diverse range of offerings, aims to maxim
 # Background
 
 ![Cyclistic](img/Cyclistic.png)
+
 Cyclistic is a bike-share company launched in 2016, growing to a fleet of 5800 bicycles in 600 docking stations across Chicago. The marketing strategy includes flexible pricing plans for single-ride passes, full-day passes, and annual memberships. Annual members are identified as more profitable than casual riders, prompting a strategic shift to convert existing casual riders into members. The goal is to understand the differences between casual riders and annual members using historical bike trip data, providing valuable insights for the marketing team.
 
 # Business Task
