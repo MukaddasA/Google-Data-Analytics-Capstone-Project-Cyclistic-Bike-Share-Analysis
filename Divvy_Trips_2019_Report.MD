@@ -31,39 +31,36 @@ For a detailed account of the entire manipulation and processing procedure, refe
 Microsoft Power BI was employed for this stage. The data, finalized after the cleaning process, was directly imported into the Microsoft Power BI Desktop application. The following presents an analysis of the relationship between subscribers and customers, supported by visualizations.
 
 ![Trips_By_User_Type](img/Trips_By_User_Type.jpg)
-
 The chart illustrates a clear dominance of subscribers, accounting for 73% of the user base, while customers make up the remaining 23%.
 
+
+
 ![Trips_by_Quarter](img/Trips_by_Quarter.jpg)
-
-
 The third quarter stands out as the peak, demonstrating the highest user engagement, followed closely by the second quarter. This pattern suggest increased activity during these quarters.
 
 
+
 ![Trips_by_Month](img/Trips_by_Month.jpg)
-
-
 The month-to-month user engagement chart indicates a significant surge in activity, commencing in May and reaching its peak in August, followed by a gradual decline through October. This pattern strongly supports a seasonal trend, with heightened engagement during the summer and fall months compared to other seasons.The rise in activity aligns with expectations of increased outdoor activites and favorable weather conditions.
 
-![Trips_by_Weekday](img/Trips_by_Weekday.jpg)
 
+
+![Trips_by_Weekday](img/Trips_by_Weekday.jpg)
 The side-by-side bar graphs provide insights into user behavior within Cyclistic. The subscribers' graph reveals higher ride frequency during weekdays, suggesting a predominant use of bikes for commuting or work-related purposes. In contrast, the customers' graph illustrates increased usage during weekends, indicating a preference for recreational bike rides. 
 
 
-![Average_Ride_Length](img/Average_Ride_Length.jpg)
 
+![Average_Ride_Length](img/Average_Ride_Length.jpg)
 The analysis of average ride lengths in minutes reveals a substantial distinction between customers and subscribers within Cyclistic. Notably, customers, on average, have ride durations nearly four times longer than those of subscribers.This suggests that customers have a preference for longer rides.
 
 
+
 ![Ride_Length_by_Day.jpg](img/Ride_Length_by_Day.jpg)
-
-
 Subscribers, on average, maintain a consistent duration of around 14 minutes with slight variations across days. In contrast, customers exhibit a substantially higher average of around 57 minutes. This observation further supports the notion that customers have a preference for longer rides.
 
 
+
 ![Trips_by_Hour.jpg](img/Trips_by_Hour.jpg)
-
-
 Subscribers exhibit a rapid peak in activity at 8 am and another surge around 5 pm, with a fairly consistent usage in between. In contrast, customers show increased activity from 9 am, peaking around 5 pm, and tapering off by 9 pm. This reinforces the earlier observation, that subscribers maintain a more consistent engagement, potentially associated with work-related commuting, while customers lean towards leisurely rides.
 
 
