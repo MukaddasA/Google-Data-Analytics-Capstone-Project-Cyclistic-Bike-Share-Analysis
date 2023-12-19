@@ -16,15 +16,14 @@ The business task is to maximize annual memberships for sustained growth by conv
 
 For this analysis, the Cyclistic 2019 trip data provided by Motivate International Inc. was utilized. The data is available for download on the [divvy_tripdata website](https://divvy-tripdata.s3.amazonaws.com/index.html). Due to data privacy regulations, personally identifiable information about riders is not used in the analysis.
 
-All four quarters of the 2019 data were acquired for this analysis, each represented by a separate file. The data schema remains consistent across all four files, including several rows of observations and 12 columns: trip_id, start_time, end_time, bikeid, tripduration, from_station_id, from_station_name, to_station_id, to_station_name, usertype, gender, and birthyear.
-
+All four quarters of the 2019 data were acquired for this analysis, each represented by a separate file. The data schema remains consistent across all four files, including several rows of observations and 12 columns: "trip_id", "start_time", "end_time", "bikeid", "tripduration", "from_station_id", "from_station_name", "to_station_id", "to_station_name", "usertype", "gender", and "birthyear".
 # Data Manipulation and Processing
 
 The process involved the use of SQL Server Management Studio 19, accessible at [SQL Server Management Studio](https://learn.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver16). All four files (Q1-Q4) containing the 2019 data were imported through the graphical user interface (GUI), resulting in 3,818,004 rows of observations after merging.
 
 The "usertype" column presented two data types: "Customer" and "Subscriber," where "Customer" signifies casual users and "Subscriber" refers to members. For this analysis, the column has been retained as is, with "Customer" denoting casual users and "Subscriber" representing members.
 
-To gain additional insights, new columns were calculated. The "start_time" and "end_time" columns, initially in date and time data types (DATETIME), were split into separate date and time columns. Two new columns, "day_of_week" and "ride_length_minutes" were introduced. Four columns, namely "from_station_name," "to_station_name," "start_time," and "end_time," were removed for streamlining the analysis. The final schema comprises 14 columns: "trip_id", "bikeid", "tripduration", "from_station_id", "to_station_id", "usertype", "gender", "birthyear", "start_date_new", "start_time_new", "end_date_new", "end_time_new", "day_of_week" and "ride_length_minutes".
+To gain additional insights, new columns were calculated. The "start_time" and "end_time" columns, initially in date and time data types (DATETIME), were split into separate date and time columns. Two new columns, "day_of_week" and "ride_length_minutes" were introduced. Four columns, namely "from_station_name", "to_station_name", "start_time" and "end_time" were removed for streamlining the analysis. The final schema comprises 14 columns: "trip_id", "bikeid", "tripduration", "from_station_id", "to_station_id", "usertype", "gender", "birthyear", "start_date_new", "start_time_new", "end_date_new", "end_time_new", "day_of_week" and "ride_length_minutes".
 
 For a detailed account of the entire manipulation and processing procedure, refer to the [Divvy_Trips_2019_Cleaning.sql](Divvy_Trips_2019_Cleaning.sql) file.
 
@@ -53,7 +52,7 @@ The side-by-side bar graphs provide insights into user behavior within Cyclistic
 
 
 ![Average_Ride_Length](img/Average_Ride_Length.jpg)
-The analysis of average ride lengths in minutes reveals a substantial distinction between customers and subscribers within Cyclistic. Notably, customers, on average, have ride durations nearly four times longer than those of subscribers.This suggests that customers have a preference for longer rides.
+The analysis of average ride length in minutes reveals a substantial distinction between customers and subscribers within Cyclistic. Notably, customers, on average, have ride duration nearly four times longer than those of subscribers.This suggests that customers have a preference for longer rides.
 
 
 
